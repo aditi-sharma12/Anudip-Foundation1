@@ -1,0 +1,77 @@
+#! Lab1: Visualize the daily temperature changes over time in a city and give your conclusion.
+
+import matplotlib.pyplot as plt
+# Input: 
+days = list(range(1, 32))
+# Daily temperature data (replace with your own data)
+temperature = [65, 68, 70, 72, 75, 76, 78, 80, 
+               81, 79, 75, 72, 70, 68, 67, 69,
+               70, 73, 75, 76, 78, 80, 81, 82,
+               83, 82, 80, 78, 76, 74, 71] 
+
+plt.plot(days, temperature, marker=".", markersize=10)
+plt.xlabel("Day of Month")
+plt.title("Daily Temperature Changes in July")
+plt.ylabel("Temperature (°f)")
+plt.show()
+
+
+#! Lab2: Create a line plot to visualize the daily closing prices of a stock over a year and give your conclusion.
+
+# Input:
+days = list(range(1, 78))
+# Daily closing prices of a stock (replace with your own data)
+stock_prices = [100, 105, 110, 115, 112, 120,
+                118, 125, 128, 130, 132, 135,
+                138, 140, 142, 144, 145, 148,
+                150, 155, 160, 158, 162, 165,
+                170, 172, 175, 178, 180, 182,
+                185, 188, 190, 192, 195, 198,
+                200, 198, 195, 193, 190, 188,
+                185, 182, 180, 178, 175, 172,
+                170, 168, 165, 162, 160, 158,
+                155, 152, 150, 148, 145, 143,
+                140, 138, 135, 132, 130, 128,
+                125, 123, 120, 118, 115, 112,
+                110, 108, 105, 103, 100]
+
+plt.plot(days, stock_prices, marker=".", markersize=6, color='b')
+plt.xlabel("Day of Year")
+plt.title("Stock Prices over a Year")
+plt.ylabel("Stock Prices (USD)")
+plt.show()
+
+
+#! CHATGPT EXERCISE
+# Hi! I have two column Date and sales with some dummy data. Can you please generate a line chart based on these two columns ?
+# After generating the code using chatgpt, run the code, display the output and explain the conclusion.
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Dummy data
+data = {
+    'Date': ['2024-01-01', '2024-01-02', '2024-01-03', '2024-01-04', '2024-01-05'],
+    'Sales': [100, 150, 200, 250, 300]
+}
+
+# Creating DataFrame
+df = pd.DataFrame(data)
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Plotting the line chart
+plt.figure(figsize=(10, 6))
+plt.plot(df['Date'], df['Sales'], marker='o', linestyle='-', color='b')
+plt.title('Sales Over Time')
+plt.xlabel('Date')
+plt.ylabel('Sales')
+plt.grid(True)
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+# Display the plot
+plt.show()
+
+# Conclusion
+# Trend Analysis: The sales show a consistent upward trend over the five days, indicating a steady increase in sales.
+# Growth Rate: The sales increment is linear, with each day showing a significant increase compared to the previous day.
+# Visualization: The line chart clearly depicts this upward trend, making it easy to observe the growth pattern over time.
