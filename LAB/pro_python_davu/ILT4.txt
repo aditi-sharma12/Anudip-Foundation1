@@ -1,0 +1,221 @@
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program to sum all the items in a list.
+
+number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sum = 0
+for num in number:
+    sum += num
+print(sum)
+
+# 2. Write a Python program to get the largest and smallest number from a list without built-in functions.
+
+list = [10, 20, 12, 15, 30, 35, 9]
+smallest = list[0]
+largest  = list[0]
+for num in range(len(list)):
+    if list[num] < smallest:
+        smallest = list[num]
+    if list[num] > largest:
+        largest = list[num]
+        
+print(f"Largest Number : {largest} \nSmallest Number : {smallest}")
+
+# 3. Write a Python program to find duplicate values from a list and display those.
+
+arr = [10, 20, 30, 10, 40, 20, 10, 50, 60, 40, 70, 80, 90]
+duplicate = []
+for index in range(len(arr)):
+    temp = index + 1
+    for j in range(temp, len(arr)):
+        if arr[index] == arr[j] and arr[j] not in duplicate:
+            duplicate.append(arr[index])  
+print(f'Duplicate Values: {duplicate}')
+
+# 4. Write a Python program to split a given list into two parts where the length of the first part of the list is given.
+#    Original list: [1, 1, 2, 3, 4, 4, 5, 1]
+#    Length of the first part of the list: 3
+#    Splitted the said list into two parts: ([1, 1, 2], [3, 4, 4, 5, 1])
+
+Original_list = [1, 1, 2, 3, 4, 4, 5, 1]
+Length_of_the_first_part_of_the_list =  3
+sub_list_1 = Original_list[:Length_of_the_first_part_of_the_list]
+sub_list_2 = Original_list[Length_of_the_first_part_of_the_list:]
+print(f'Splitted the said list into two parts : ({sub_list_1}{sub_list_2})')
+
+# 5. Write a Python program to traverse a given list in reverse order, and print the elements with the original index.
+# Original list: ['red', 'green', 'white', 'black']
+# Traverse the said list in reverse order:
+# black
+# white
+# green
+# red
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program and calculate the mean of the below dictionary.
+#    test_dict = {"A" : 6, "B" : 9, "C" : 5, "D" : 7, "E" : 4}
+#    Output: 6.2
+
+test_dict = {"A" : 6, "B" : 9, "C" : 5, "D" : 7, "E" : 4}
+sum = 0
+length = len(test_dict)
+for value in test_dict.values():
+   sum += value
+mean = sum / length
+print(mean) 
+
+# 2.Write a Python script to concatenate the following dictionaries to create a new one.
+# Sample Dictionary :
+# dic1={1:10, 2:20}
+# dic2={3:30, 4:40}
+# dic3={5:50,6:60}
+# Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50, 6:60}
+dic = {**dic1, **dic2, **dic3} 
+print(dic)
+
+# 3.Write a Python program to get the key, value and item in a dictionary.
+#   input:dict_num = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+#   Output:
+#   Key 	Value
+#   1	10
+#   2	20
+#   3	30
+#   4	40
+#   5	50
+#   6	60
+
+dict_num = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+print('key    value')
+for key, value in dict_num.items():
+    print(f'{key}      {value}')
+
+# 4.Write a Python program to get the key, value and item in a dictionary.
+# Input: input_dict = {1: 10, 2: 20, 3:None, 4: 40, 5: None, 6: 60}
+# Output: dict with empty items Dropped : {1:10,2:40,4:40,6:60}
+
+input_dict = {1: 10, 2: 20, 3:None, 4: 40, 5: None, 6: 60}
+output_dict = {}
+for key, value in input_dict.items():
+    if value == None:
+        continue
+    else:
+        output_dict[key] = value
+print(f'dict with empty items Dropped : {output_dict}')
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program to find the number of times 4 appears in the tuple.
+# Input: tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7 )
+# Output: 3
+
+tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7)
+count = 0
+for i in tuplex:
+    if i == 4:
+        count += 1
+print(count)
+
+# 2.Write a Python program to convert a list to a tuple.
+# Input: listx = [5, 10, 7, 4, 15, 3]
+# Output: (5, 10, 7, 4, 15, 3)
+
+listx = [5, 10, 7, 4, 15, 3]
+tupx = tuple(listx)
+print(tupx)
+
+# 3. Write a Python program to calculate the sum of the numbers in a given tuple.
+# Input: tuples_list = [(1, 2), (3, 4), (5, 6)]
+# Output: sum of tuple is : 21 
+
+tuples_list = [(1, 2), (3, 4), (5, 6)]
+sum = 0
+for ele in tuples_list:
+    sum += ele[0] + ele[1]
+print(f"sum of tuple is : {sum}")
+
+# 4.Write a python program and iterate the given tuples
+#   Input:
+#   employee1 = ("John Doe", 101, "Human Resources", 60000)
+#   employee2 = ("Alice Smith", 102, "Marketing", 55000)
+#   employee3 = ("Bob Johnson", 103, "Engineering", 75000)
+#   Output:
+#   Employee Records :
+#   Name : John Doe
+#   Employee ID : 101
+#   Department : Human Resources
+#   Salary	:  60000
+
+#   Name : Alice Smith
+#   Employee ID : 102
+#   Department :Marketing
+#   Salary	:  55000
+
+#   Name : Bob Johnson
+#   Employee ID : 103
+#   Department : Engineering
+#   Salary	:  75000
+
+employee1 = ("John Doe", 101, "Human Resources", 60000)
+employee2 = ("Alice Smith", 102, "Marketing", 55000)
+employee3 = ("Bob Johnson", 103, "Engineering", 75000)
+employee = [employee1, employee2, employee3]
+for tup in employee:
+    name, emp_id, department, salary = tup
+    print(f"\nName : {name}")
+    print(f"Employee ID : {emp_id}")
+    print(f"Department : {department}")
+    print(f"Salary : {salary}\n")
+
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program to Get Only unique items from two sets.
+# Input:
+# set1 = {10, 20, 30, 40, 50}
+# set2 = {30, 40, 50, 60, 70}
+# Output: {70, 40, 10, 50, 20, 60, 30}
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+unique_items = set1 | set2
+print("Unique items from both sets:", unique_items)
+
+# 2. Write a Python program to Return a set of elements present in Set A or B, but not both.
+# Input:
+# set1 = {10, 20, 30, 40, 50}
+# set2 = {30, 40, 50, 60, 70}
+# Output: {20, 70, 10, 60}
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+unique_items = set1.union(set2) - set1.intersection(set2)
+print(unique_items)
+
+# 3. Write a Python program to Check if two sets have any elements in common. If yes, display the common elements.
+# Input:
+# set1 = {10, 20, 30, 40, 50}
+# set2 = {60, 70, 80, 90, 10}
+# Output: {10}
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {60, 70, 80, 90, 10}
+unique_items = set1.intersection(set2)
+print(unique_items)
+
+# 4. Write a Python program to Remove items from set1 that are not common to both set1 and set2.
+# Input:
+# set1 = {10, 20, 30, 40, 50}
+# set2 = {30, 40, 50, 60, 70}
+# Output: {40, 50, 30}
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+common_items = set1.intersection(set2)
+set1 = common_items
+print("Items in set1 that are common to both set1 and set2:", set1)

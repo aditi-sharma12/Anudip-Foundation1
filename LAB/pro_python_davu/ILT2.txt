@@ -1,0 +1,163 @@
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Python program to check leap year
+
+year = int(input("Enter the year: "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year.")
+else:
+    print(year, "is not a leap year.")
+
+# 2. Python Program to Find the Largest Among Three Numbers
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+if num1 >= num2 and num1 >= num3:
+    largest = num1
+elif num2 >= num1 and num2 >= num3:
+    largest = num2
+else:
+    largest = num3
+print("The largest number is:", largest)
+
+# 3. Python Program to Check if a Number is Positive, Negative or 0.
+
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+    print("Negative number")
+
+# 4. A toy vendor supplies three types of toys: Battery Based Toys, Key-based Toys, and Electrical Charging Based Toys. The vendor gives a discount of 10% on orders for battery-based toys if the order is for more than Rs. 1000. On orders of more than Rs. 100 for key-based toys, a discount of 5% is given, and a discount of 10% is given on orders for electrical charging based toys of value more than Rs. 500. Assume that the numeric codes 1,2 and 3 are used for battery based toys, key-based toys, and electrical charging based toys respectively. Write a program that reads the product code and the order amount and prints out the net amount that the customer is required to pay after the discount.
+
+order_amount_1 = int(input("Enter the order amount for product code 1: "))
+order_amount_2 = int(input("Enter the order amount for product code 2: "))
+order_amount_3 = int(input("Enter the order amount for product code 3: "))
+# total_orders = {1: order_amount_1, 2: order_amount_2, 3: order_amount_3}
+sum = order_amount_1 + order_amount_2 + order_amount_3
+print("Your total order amount is: ", sum)
+if sum > 1000:
+    print("You got 10% discount on your order for battery based toys")
+    order_amount_1 -= order_amount_1 * 0.1
+if sum > 100:
+    print("You got 5% discount on your order for key based toys")
+    order_amount_2 -= order_amount_2 * 0.05
+if sum > 500:
+    print("You got 10% discount on your order for electrical charging based toys")
+    order_amount_3 -= order_amount_3 * 0.1
+    
+sum = order_amount_1 + order_amount_2 + order_amount_3
+print("Your total order amount is: ", sum)
+
+# 5. A transport company charges the fare according to following table: 
+#    Distance Charges
+#    1-50 8 Rs./Km
+#    51-100 10 Rs./Km
+#    > 100 12 Rs/Km
+
+dist_covered = int(input("Enter the distance covered: "))
+if dist_covered <= 50:
+    fare = dist_covered * 8
+elif dist_covered <= 100:
+    fare = dist_covered * 10
+else:
+    fare = dist_covered * 12
+print("Total fare:", fare)
+
+# 6. Write a python program to reverse a number using a while loop.
+
+num = int(input("Enter a number: "))
+while num > 0:
+    digit = num % 10
+    print(digit, end="")
+    num = num // 10
+
+# 7. Write a python program to check whether a number is palindrome or not?
+
+num = int(input("Enter a number: "))
+rev = 0
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
+
+if rev == num:
+    print("The number is a palindrome!")
+else:
+    print("The number is not a palindrome!")
+
+# 8. Write a python program finding the factorial of a given number using a while loop.
+
+num = int(input("Enter a number: "))
+factorial = 1
+while num > 0:
+    factorial *= num
+    num -= 1
+print("Factorial:", factorial)
+
+# 9. Accept numbers using input() function until the user enters 0. If user input 0 then break the while loop and display the sum of all the numbers.
+
+sum = 0
+while True:
+    num = int(input("Enter a number: "))
+    if num == 0:
+        break
+    sum += num
+print("Sum of all the numbers:", sum)
+
+# 10. Print the first 10 natural numbers using for loop
+
+for i in range(1,11):
+    print(i)
+
+# 11. Python program to check if the given string is a palindrome
+
+string = input("Enter a string: ")
+if string == string[::-1]:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.") 
+
+# 12. Python program to check if a given number is an Armstrong number
+
+num = int(input("Enter a number: "))
+temp = num
+sum = 0
+length = len(str(temp))
+while temp > 0:
+    digit = temp % 10
+    sum += digit ** length
+    temp //= 10
+if sum == num:
+        print(num, "is an Armstrong number")
+else:
+    print(num, "is not an Armstrong number")
+
+# 13. Python program to get the Fibonacci series between 0 to 50.
+
+a = 0
+b = 1
+print(a, end=", ")
+while b < 50:
+    print(b, end=", ")
+    c = a+b
+    a = b
+    b = c
+
+# 14. Python program to check the validity of password input by users
+
+password = input("Enter your password: ")
+if len(password) < 8:
+    print("Password is invalid. It should be at least 8 characters long.")
+elif not any(char.isupper() for char in password):
+    print("Password is invalid. It should contain at least one uppercase letter.")
+elif not any(char.islower() for char in password):
+    print("Password is invalid. It should contain at least one lowercase letter.")
+elif not any(char.isdigit() for char in password):
+    print("Password is invalid. It should contain at least one digit.")
+else:
+    print("Password is valid.")

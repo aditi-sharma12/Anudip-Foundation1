@@ -1,0 +1,145 @@
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Declare a div() function with two parameters. Then call the function and pass two numbers and display their division.
+
+def div(num1,num2):
+    print(num1/num2)
+    
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+div(num1,num2)
+
+# 2. Declare a square() function with one parameter. Then call the function and pass one number and display the square of that number.
+
+def square(num):
+    return num ** 2
+
+num = int(input("Enter a number: "))
+print(square(num))
+
+# 3. Using max() and min() functions display the maximum and minimum of 5 random numbers.
+
+import random
+numbers = random.sample(range(1, 100), 5)
+max_number = max(numbers)
+min_number = min(numbers)
+print("Random numbers:", numbers)
+print("Maximum number:", max_number)
+print("Minimum number:", min_number)
+
+# 4. Accept a name from the user and display that in lower case using lower() function.
+
+name = input("Enter your name: ")
+print(name.lower())
+
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program to count the occurrences of each word in a given sentence
+
+string = 'To change the overall look of your document. To change the look available in the gallery'
+count = {}  
+words = string.split()
+for word in words:
+    if word in count:
+        count[word] += 1
+    else:
+        count[word] = 1
+print(count)
+
+# 2. Write a Python program to remove a newline in Python
+
+String = "\nBest \nDeeptech \nPython \nTraining\n"
+newString = String.replace("\n", "")
+print(newString)
+
+# 3. Write a Python program to reverse words in a string.
+
+String = "Deeptech Python Training"
+print("The original string is: ", String)
+# reversing words in a given string
+rev_String = ' '.join(reversed(String.split()))
+print("The reversed string is: ", rev_String)
+
+# 4. Write a Python program to count and display the vowels of a given text.
+
+String = "Welcome to python Training"
+vowels = "aeiouAEIOU"
+count = 0
+for char in String:
+    if char in vowels:
+        count += 1
+        print(char)
+print("Total vowels:", count)
+
+-----------------------------------------------------------------------------------------------------------------------------
+Assignment:
+
+# 1. Write a Python program to Count all letters, digits, and special symbols from the given string.
+#    Input = “P@#yn26at^&i5ve”
+#    Output: Chars = 8 Digits = 2 Symbol = 3
+
+Input = "P@#yn26at^&i5ve"
+chars = 0
+digits = 0
+symbols = 0
+for i in Input:
+    if i.isalpha():
+        chars += 1
+    elif i.isdigit():
+        digits += 1
+    else:
+        symbols += 1
+print("Chars =", chars, "Digits =", digits, "Symbols =", symbols)
+
+# 2. Write a Python program to remove duplicate characters of a given string.
+#    Input = “String and String Function”
+#    Output: String and Function
+
+Input = "String and String Function"
+Input_list = Input.split()
+output = ""
+for i in Input_list:
+    if i not in output:
+        output += f" {i}"
+print(output)   
+
+# 3. Write a Python program to count Uppercase, Lowercase, special character and numeric values in a given string
+#    Input = “Hell0 W0rld ! 123 * # welcome to pYtHoN”
+#    Output:
+#    UpperCase : 5
+#    LowerCase : 18
+#    NumberCase : 5
+#    SpecialCase : 11
+
+Input = "Hell0 W0rld ! 123 * # welcome to pYtHoN"
+upper = 0
+lower = 0
+number = 0
+special = 0
+for i in Input:
+    if i.isupper():
+        upper += 1
+    elif i.islower():
+        lower += 1
+    elif i.isnumeric():
+        number += 1
+    else:
+        special += 1
+print("UpperCase : ", upper)
+print("LowerCase : ", lower)
+print("NumberCase : ", number)
+print("SpecialCase : ", special)
+
+# 4. Write a Python Count vowels in a string
+#    input= “Welcome to Python Assignment”
+#    Output: Total vowels are: 8
+
+input= "Welcome to Python Assignment"
+vowels = "aeiouAEIOU"   
+count = 0
+for char in input:
+    if char in vowels:
+        count += 1
+print("Total vowels are:", count)

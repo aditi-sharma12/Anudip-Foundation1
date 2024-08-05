@@ -1,0 +1,32 @@
+# 1. Using input() function take one number from the user and using ternary operators check whether the number is even or odd.
+
+num = int(input("Enter a number: "))
+result = "Even" if num % 2 == 0 else "Odd"
+print(f"{num} is {result}.")
+
+# 2. Using input function take two number and then swap the number.
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("Before swapping:")
+print("First number:", num1)
+print("Second number:", num2)
+num1, num2 = num2, num1
+print("After swapping:")
+print("First number:", num1)
+print("Second number:", num2)
+
+# 3. Write a Program to Convert Kilometers to Miles
+
+kilometer=float(input("Enter the Kilometer: "))
+# 1 kilometer = 0.621371 miles
+miles=kilometer*0.621371
+print("The Kilometer in Miles is:",miles)
+
+# 4. Find the Simple Interest on Rs. 200 for 5 years at 5% per year
+
+p = 200
+r = 5
+t = 5
+si=(p*t*r)/100
+print("Simple Interest is:",si)
