@@ -1,0 +1,101 @@
+,product_id,product_name,category,sub_category,original_price,selling_price
+0,P001,Smartphone X100,Electronics,Mobile Phones,999.99,799.99
+1,P002,4K Ultra HD TV,Electronics,Televisions,1299.99,999.99
+2,P003,"Laptop Pro 15""",Electronics,Laptops,1499.99,1199.99
+3,P004,Wireless Bluetooth Earbuds,Electronics,Audio,199.99,149.99
+4,P005,Gaming Console Z,Electronics,Gaming,499.99,449.99
+5,P006,Digital Camera D5500,Electronics,Cameras,699.99,599.99
+6,P007,Smartwatch Series 5,Electronics,Wearables,299.99,249.99
+7,P008,Bluetooth Speaker S20,Electronics,Audio,99.99,79.99
+8,P009,Home Theater System,Electronics,Audio,599.99,499.99
+9,P010,Tablet A10,Electronics,Tablets,399.99,349.99
+10,P011,Refrigerator XL,Appliances,Kitchen,1299.99,1099.99
+11,P012,Washing Machine W500,Appliances,Laundry,799.99,699.99
+12,P013,Microwave Oven M700,Appliances,Kitchen,299.99,249.99
+13,P014,Air Conditioner A1500,Appliances,Cooling,999.99,899.99
+14,P015,Vacuum Cleaner V300,Appliances,Cleaning,199.99,159.99
+15,P016,Dishwasher D800,Appliances,Kitchen,899.99,799.99
+16,P017,Water Heater WH100,Appliances,Bathroom,399.99,349.99
+17,P018,Coffee Maker C700,Appliances,Kitchen,149.99,129.99
+18,P019,Toaster T200,Appliances,Kitchen,49.99,39.99
+19,P020,Blender B300,Appliances,Kitchen,79.99,69.99
+20,P021,Leather Sofa Set,Furniture,Living Room,1999.99,1799.99
+21,P022,Queen Size Bed Frame,Furniture,Bedroom,699.99,599.99
+22,P023,Dining Table Set,Furniture,Dining Room,999.99,899.99
+23,P024,Office Chair Ergonomic,Furniture,Office,299.99,249.99
+24,P025,Bookshelf Wooden,Furniture,Living Room,199.99,159.99
+25,P026,Wardrobe W300,Furniture,Bedroom,799.99,699.99
+26,P027,TV Stand Modern,Furniture,Living Room,249.99,199.99
+27,P028,Study Desk D400,Furniture,Office,349.99,299.99
+28,P029,Armchair Velvet,Furniture,Living Room,499.99,449.99
+29,P030,Patio Set Outdoor,Furniture,Outdoor,1199.99,999.99
+30,P031,Running Shoes RS300,Apparel,Footwear,119.99,99.99
+31,P032,Leather Jacket LJ500,Apparel,Outerwear,299.99,249.99
+32,P033,Denim Jeans D700,Apparel,Bottoms,89.99,79.99
+33,P034,T-Shirt Cotton,Apparel,Tops,29.99,24.99
+34,P035,Wool Sweater,Apparel,Tops,69.99,59.99
+35,P036,Formal Suit FS900,Apparel,Formal,399.99,349.99
+36,P037,Sneakers Casual,Apparel,Footwear,79.99,69.99
+37,P038,Yoga Pants,Apparel,Activewear,49.99,39.99
+38,P039,Winter Coat W300,Apparel,Outerwear,199.99,179.99
+39,P040,Silk Scarf,Apparel,Accessories,49.99,39.99
+40,P041,Hardcover Notebook,Stationery,Notebooks,19.99,14.99
+41,P042,Ballpoint Pens Set,Stationery,Writing Instruments,9.99,7.99
+42,P043,Planner 2024,Stationery,Organizers,24.99,19.99
+43,P044,Highlighters Pack,Stationery,Writing Instruments,6.99,4.99
+44,P045,Fountain Pen F200,Stationery,Writing Instruments,49.99,39.99
+45,P046,Office Paper A4,Stationery,Paper Products,12.99,9.99
+46,P047,Sticky Notes Set,Stationery,Paper Products,7.99,5.99
+47,P048,Whiteboard Markers,Stationery,Writing Instruments,9.99,7.99
+48,P049,Desk Organizer D100,Stationery,Organizers,29.99,24.99
+49,P050,Paper Shredder PS200,Stationery,Office Supplies,149.99,129.99
+50,P051,Shampoo 500ml,Personal Care,Hair Care,14.99,12.99
+51,P052,Moisturizing Lotion,Personal Care,Skin Care,19.99,17.99
+52,P053,Electric Toothbrush,Personal Care,Oral Care,49.99,39.99
+53,P054,Hair Dryer HD300,Personal Care,Hair Care,69.99,59.99
+54,P055,Face Wash FW200,Personal Care,Skin Care,9.99,7.99
+55,P056,Body Wash 1L,Personal Care,Body Care,12.99,9.99
+56,P057,Perfume P500,Personal Care,Fragrances,89.99,79.99
+57,P058,Razor Set R700,Personal Care,Shaving,29.99,24.99
+58,P059,Sunscreen SPF50,Personal Care,Skin Care,19.99,17.99
+59,P060,Hand Sanitizer 500ml,Personal Care,Hygiene,9.99,7.99
+60,P061,Mountain Bike MB1000,Sports,Cycling,799.99,699.99
+61,P062,Tennis Racket T300,Sports,Tennis,149.99,129.99
+62,P063,Yoga Mat Y500,Sports,Fitness,39.99,29.99
+63,P064,Running Treadmill RT700,Sports,Fitness,999.99,899.99
+64,P065,Dumbbell Set D500,Sports,Fitness,99.99,79.99
+65,P066,Football F100,Sports,Team Sports,29.99,24.99
+66,P067,Basketball B200,Sports,Team Sports,29.99,24.99
+67,P068,Golf Clubs Set,Sports,Golf,599.99,549.99
+68,P069,Baseball Bat BB300,Sports,Team Sports,49.99,39.99
+69,P070,Hiking Backpack HB700,Sports,Outdoor Gear,149.99,129.99
+70,P071,Cookware Set CS900,Home & Kitchen,Cookware,199.99,179.99
+71,P072,Knife Set KS500,Home & Kitchen,Cutlery,79.99,69.99
+72,P073,Blender B700,Home & Kitchen,Appliances,129.99,109.99
+73,P074,Pressure Cooker PC400,Home & Kitchen,Cookware,89.99,79.99
+74,P075,Dinnerware Set DS600,Home & Kitchen,Tableware,149.99,129.99
+75,P076,Baking Set BS300,Home & Kitchen,Bakeware,59.99,49.99
+76,P077,Vacuum Flask VF200,Home & Kitchen,Storage,29.99,24.99
+77,P078,Air Fryer AF500,Home & Kitchen,Appliances,129.99,109.99
+78,P079,Water Purifier WP700,Home & Kitchen,Appliances,199.99,179.99
+79,P080,Electric Kettle EK300,Home & Kitchen,Appliances,49.99,39.99
+80,P081,Bed Sheet Set BS800,Home & Kitchen,Bedding,79.99,69.99
+81,P082,Curtain Set C500,Home & Kitchen,Window Treatments,59.99,49.99
+82,P083,Floor Lamp FL300,Home & Kitchen,Lighting,99.99,79.99
+83,P084,Table Lamp TL200,Home & Kitchen,Lighting,49.99,39.99
+84,P085,Wall Clock WC100,Home & Kitchen,Decor,29.99,24.99
+85,P086,Photo Frame Set PF400,Home & Kitchen,Decor,39.99,29.99
+86,P087,Indoor Plant IP100,Home & Kitchen,Plants,19.99,14.99
+87,P088,Carpet C700,Home & Kitchen,Rugs,149.99,129.99
+88,P089,Doormat DM200,Home & Kitchen,Rugs,19.99,14.99
+89,P090,Waffle Maker WM500,Home & Kitchen,Appliances,59.99,49.99
+90,P091,Fishing Rod FR300,Outdoor,Fishing,99.99,79.99
+91,P092,Tent T700,Outdoor,Camping,199.99,179.99
+92,P093,Sleeping Bag SB1000,Outdoor,Camping,99.99,89.99
+93,P094,Portable Grill PG500,Outdoor,Cooking,149.99,129.99
+94,P095,Outdoor Chair OC300,Outdoor,Furniture,49.99,39.99
+95,P096,Picnic Basket PB100,Outdoor,Accessories,29.99,24.99
+96,P097,Hammock H200,Outdoor,Furniture,79.99,69.99
+97,P098,Solar Lantern SL500,Outdoor,Lighting,39.99,29.99
+98,P099,Binoculars B800,Outdoor,Optics,129.99,109.99
+99,P100,Kayak K900,Outdoor,Water Sports,499.99,449.99

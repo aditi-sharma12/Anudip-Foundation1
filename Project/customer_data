@@ -1,0 +1,101 @@
+,customer_id,name,city,email,phone_no,address,pin_code
+0,C001,Alice Johnson,New York,alice.johnson@example.com,212-555-1234,123 Elm Street,10001
+1,C002,Bob Smith,Los Angeles,bob.smith@example.com,310-555-5678,456 Oak Avenue,90001
+2,C003,Charlie Brown,Chicago,charlie.brown@example.com,312-555-9876,789 Pine Road,60601
+3,C004,Diana Prince,San Francisco,diana.prince@example.com,415-555-4321,101 Maple Lane,94101
+4,C005,Ethan Hunt,Boston,ethan.hunt@example.com,617-555-6789,202 Birch Street,2101
+5,C006,Fiona Gallagher,Chicago,fiona.gallagher@example.com,206-555-3456,303 Cedar Avenue,98101
+6,C007,George Clooney,Austin,george.clooney@example.com,512-555-2345,404 Willow Lane,73301
+7,C008,Hannah Montana,Denver,hannah.montana@example.com,303-555-6789,505 Spruce Street,80201
+8,C009,Ian Malcolm,New York,ian.malcolm@example.com,305-555-7890,606 Palm Avenue,33101
+9,C010,Jane Doe,Orlando,jane.doe@example.com,407-555-1234,707 Magnolia Drive,32801
+10,C011,Kurt Cobain,New York,kurt.cobain@example.com,212-555-5678,123 Main Street,10002
+11,C012,Laura Palmer,Orlando,laura.palmer@example.com,310-555-1234,456 Elm Avenue,90002
+12,C013,Michael Scott,Chicago,michael.scott@example.com,312-555-4321,789 Oak Road,60602
+13,C014,Nancy Drew,San Francisco,nancy.drew@example.com,415-555-6789,101 Pine Lane,94102
+14,C015,Oscar Wilde,Boston,oscar.wilde@example.com,617-555-3456,202 Cedar Street,2102
+15,C016,Pam Beesly,Chicago,pam.beesly@example.com,206-555-2345,303 Birch Avenue,98102
+16,C017,Quentin Tarantino,Austin,quentin.tarantino@example.com,512-555-6789,404 Maple Lane,73302
+17,C018,Rachel Green,Denver,rachel.green@example.com,303-555-1234,505 Cedar Street,80202
+18,C019,Sam Winchester,New York,sam.winchester@example.com,305-555-4321,606 Oak Avenue,33102
+19,C020,Tina Fey,Orlando,tina.fey@example.com,407-555-5678,707 Pine Drive,32802
+20,C021,Ursula Buffay,New York,ursula.buffay@example.com,212-555-2345,124 Elm Street,10003
+21,C022,Vin Diesel,Orlando,vin.diesel@example.com,310-555-4321,457 Oak Avenue,90003
+22,C023,Walter White,Chicago,walter.white@example.com,312-555-6789,790 Pine Road,60603
+23,C024,Xander Cage,San Francisco,xander.cage@example.com,415-555-3456,102 Maple Lane,94103
+24,C025,Yvonne Strahovski,Boston,yvonne.strahovski@example.com,617-555-2345,203 Birch Street,2103
+25,C026,Zack Morris,Chicago,zack.morris@example.com,206-555-6789,304 Cedar Avenue,98103
+26,C027,Amy Santiago,Austin,amy.santiago@example.com,512-555-1234,405 Willow Lane,73303
+27,C028,Brian O Conner,Denver,brian.oconnor@example.com,303-555-4321,506 Spruce Street,80203
+28,C029,Clarice Starling,Miami,clarice.starling@example.com,305-555-5678,607 Palm Avenue,33103
+29,C030,Dexter Morgan,Orlando,dexter.morgan@example.com,407-555-2345,708 Magnolia Drive,32803
+30,C031,Elle Woods,New York,elle.woods@example.com,212-555-5678,125 Elm Street,10004
+31,C032,Forrest Gump,Orlando,forrest.gump@example.com,310-555-1234,458 Oak Avenue,90004
+32,C033,Gordon Ramsay,Chicago,gordon.ramsay@example.com,312-555-4321,791 Pine Road,60604
+33,C034,Harry Potter,San Francisco,harry.potter@example.com,415-555-6789,103 Maple Lane,94104
+34,C035,Isabella Swan,Boston,isabella.swan@example.com,617-555-3456,204 Birch Street,2104
+35,C036,Jack Sparrow,Chicago,jack.sparrow@example.com,206-555-2345,305 Cedar Avenue,98104
+36,C037,Lara Croft,Austin,lara.croft@example.com,512-555-6789,406 Willow Lane,73304
+37,C038,Monica Geller,Denver,monica.geller@example.com,303-555-1234,507 Spruce Street,80204
+38,C039,Neo Anderson,Miami,neo.anderson@example.com,305-555-4321,608 Palm Avenue,33104
+39,C040,Olivia Benson,Orlando,olivia.benson@example.com,407-555-5678,709 Magnolia Drive,32804
+40,C041,Patrick Bateman,New York,patrick.bateman@example.com,212-555-2345,126 Elm Street,10005
+41,C042,Quincy Adams,Orlando,quincy.adams@example.com,310-555-4321,459 Oak Avenue,90005
+42,C043,Ron Weasley,Chicago,ron.weasley@example.com,312-555-6789,792 Pine Road,60605
+43,C044,Samantha Jones,San Francisco,samantha.jones@example.com,415-555-3456,104 Maple Lane,94105
+44,C045,Tony Stark,Boston,tony.stark@example.com,617-555-2345,205 Birch Street,2105
+45,C046,Uma Thurman,Chicago,uma.thurman@example.com,206-555-6789,306 Cedar Avenue,98105
+46,C047,Victor Creed,Austin,victor.creed@example.com,512-555-1234,407 Willow Lane,73305
+47,C048,Wanda Maximoff,Denver,wanda.maximoff@example.com,303-555-4321,508 Spruce Street,80205
+48,C049,Xena Warrior,Miami,xena.warrior@example.com,305-555-5678,609 Palm Avenue,33105
+49,C050,Yoda Jedi,Orlando,yoda.jedi@example.com,407-555-2345,710 Magnolia Drive,32805
+50,C051,Zoe Barnes,New York,zoe.barnes@example.com,212-555-5678,127 Elm Street,10006
+51,C052,Aiden Pearce,Orlando,aiden.pearce@example.com,310-555-1234,460 Oak Avenue,90006
+52,C053,Bruce Wayne,Chicago,bruce.wayne@example.com,312-555-4321,793 Pine Road,60606
+53,C054,Claire Redfield,San Francisco,claire.redfield@example.com,415-555-6789,105 Maple Lane,94106
+54,C055,Dean Winchester,Boston,dean.winchester@example.com,617-555-3456,206 Birch Street,2106
+55,C056,Eric Cartman,Chicago,eric.cartman@example.com,206-555-2345,307 Cedar Avenue,98106
+56,C057,Frank Castle,Austin,frank.castle@example.com,512-555-6789,408 Willow Lane,73306
+57,C058,Grace Adler,Denver,grace.adler@example.com,303-555-1234,509 Spruce Street,80206
+58,C059,Hank Moody,Miami,hank.moody@example.com,305-555-4321,610 Palm Avenue,33106
+59,C060,Iris West,Orlando,iris.west@example.com,407-555-5678,711 Magnolia Drive,32806
+60,C061,John McClane,New York,john.mcclane@example.com,212-555-2345,128 Elm Street,10007
+61,C062,Katniss Everdeen,Orlando,katniss.everdeen@example.com,310-555-4321,461 Oak Avenue,90007
+62,C063,Loki Laufeyson,Chicago,loki.laufeyson@example.com,312-555-6789,794 Pine Road,60607
+63,C064,Morticia Addams,San Francisco,morticia.addams@example.com,415-555-3456,106 Maple Lane,94107
+64,C065,Norman Bates,Boston,norman.bates@example.com,617-555-2345,207 Birch Street,2107
+65,C066,Ophelia Lovibond,Chicago,ophelia.lovibond@example.com,206-555-6789,308 Cedar Avenue,98107
+66,C067,Peter Parker,Austin,peter.parker@example.com,512-555-1234,409 Willow Lane,73307
+67,C068,Quentin Beck,Denver,quentin.beck@example.com,303-555-4321,510 Spruce Street,80207
+68,C069,Rick Grimes,Miami,rick.grimes@example.com,305-555-5678,611 Palm Avenue,33107
+69,C070,Sarah Connor,Orlando,sarah.connor@example.com,407-555-2345,712 Magnolia Drive,32807
+70,C071,Thomas Shelby,New York,thomas.shelby@example.com,212-555-5678,129 Elm Street,10008
+71,C072,Ultron AI,Los Angeles,ultron.ai@example.com,310-555-1234,462 Oak Avenue,90008
+72,C073,Vito Corleone,Chicago,vito.corleone@example.com,312-555-4321,795 Pine Road,60608
+73,C074,Wade Wilson,San Francisco,wade.wilson@example.com,415-555-6789,107 Maple Lane,94108
+74,C075,Xander Harris,Boston,xander.harris@example.com,617-555-3456,208 Birch Street,2108
+75,C076,Yelena Belova,Seattle,yelena.belova@example.com,206-555-2345,309 Cedar Avenue,98108
+76,C077,Zachary Levi,Austin,zachary.levi@example.com,512-555-6789,410 Willow Lane,73308
+77,C078,Alice Cullen,Denver,alice.cullen@example.com,303-555-1234,511 Spruce Street,80208
+78,C079,Ben Solo,Miami,ben.solo@example.com,305-555-4321,612 Palm Avenue,33108
+79,C080,Cersei Lannister,Orlando,cersei.lannister@example.com,407-555-5678,713 Magnolia Drive,32808
+80,C081,Daryl Dixon,New York,daryl.dixon@example.com,212-555-2345,130 Elm Street,10009
+81,C082,Elliot Alderson,Los Angeles,elliot.alderson@example.com,310-555-4321,463 Oak Avenue,90009
+82,C083,Finn Hudson,Chicago,finn.hudson@example.com,312-555-6789,796 Pine Road,60609
+83,C084,Gale Hawthorne,San Francisco,gale.hawthorne@example.com,415-555-3456,108 Maple Lane,94109
+84,C085,Hannibal Lecter,Boston,hannibal.lecter@example.com,617-555-2345,209 Birch Street,2109
+85,C086,Ivy Pepper,Seattle,ivy.pepper@example.com,206-555-6789,310 Cedar Avenue,98109
+86,C087,John Wick,Austin,john.wick@example.com,512-555-1234,411 Willow Lane,73309
+87,C088,Kara Zor-El,Denver,kara.zorel@example.com,303-555-4321,512 Spruce Street,80209
+88,C089,Lisbeth Salander,Miami,lisbeth.salander@example.com,305-555-5678,613 Palm Avenue,33109
+89,C090,Meredith Grey,Orlando,meredith.grey@example.com,407-555-2345,714 Magnolia Drive,32809
+90,C091,Nancy Botwin,New York,nancy.botwin@example.com,212-555-5678,131 Elm Street,10010
+91,C092,Oliver Queen,Los Angeles,oliver.queen@example.com,310-555-1234,464 Oak Avenue,90010
+92,C093,Penny Hofstadter,Chicago,penny.hofstadter@example.com,312-555-4321,797 Pine Road,60610
+93,C094,Quinn Fabray,San Francisco,quinn.fabray@example.com,415-555-6789,109 Maple Lane,94110
+94,C095,Rachel Zane,Boston,rachel.zane@example.com,617-555-3456,210 Birch Street,2110
+95,C096,Sheldon Cooper,Seattle,sheldon.cooper@example.com,206-555-2345,311 Cedar Avenue,98110
+96,C097,Tyrion Lannister,Austin,tyrion.lannister@example.com,512-555-6789,412 Willow Lane,73310
+97,C098,Uhtred Ragnarson,Denver,uhtred.ragnarson@example.com,303-555-1234,513 Spruce Street,80210
+98,C099,Vanessa Kensington,Miami,vanessa.kensington@example.com,305-555-4321,614 Palm Avenue,33110
+99,C100,Willy Wonka,Orlando,willy.wonka@example.com,407-555-5678,715 Magnolia Drive,32810
